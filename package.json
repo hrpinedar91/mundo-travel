@@ -1,0 +1,23 @@
+{
+  "name": "mundo-travel",
+  "version": "1.0.0",
+  "description": "landing-travel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw:build": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrpinedar91/mundo-travel.git"
+  },
+  "author": "hrpinedar91",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrpinedar91/mundo-travel/issues"
+  },
+  "homepage": "https://github.com/hrpinedar91/mundo-travel#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.18"
+  }
+}
