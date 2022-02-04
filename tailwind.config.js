@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {         
-        'sanFrancisco': "url('../img/san-fracisco.jpg')",  
+        'sanFrancisco': "url('../img/SanFrancisco.png')",  
 		'yosemite': "url('../img/yosemite.jpg')",
 		'seattle': "url('../img/seattle.jpg')",
 		'new-york': "url('../img/new-york.jpg')",
@@ -22,6 +22,12 @@ module.exports = {
 		'secondary': '#8FA206',
 		'terciary': '#61AEC9',
 	  }),
+	  borderRadius: {
+		'md': '0.434rem'
+	  },
+	  fontFamily: {
+		'Monserrat': ['Montserrat', 'sans-serif']
+	  },
     },
   },
   plugins: [],
