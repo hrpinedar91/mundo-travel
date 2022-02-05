@@ -7,7 +7,8 @@ module.exports = {
 		'yosemite': "url('../img/yosemite.jpg')",
 		'seattle': "url('../img/seattle.jpg')",
 		'new-york': "url('../img/new-york.jpg')",
-		'norway': "url('../img/norway.jpg')",			 
+		'norway': "url('../img/norway.jpg')",		
+		'switzerland': "url('../img/switzerland.jpg')",	 
       },
 	  backgroundColor: theme => ({
 		  ...theme('colors'),
@@ -22,9 +23,9 @@ module.exports = {
 		'secondary': '#8FA206',
 		'terciary': '#61AEC9',
 	  }),
-	  borderRadius: {
-		'md': '0.434rem'
-	  },
+	//   borderRadius: {
+	// 	'md': '0.434rem'
+	//   },
 	  fontFamily: {
 		'Monserrat': ['Montserrat', 'sans-serif']
 	  },

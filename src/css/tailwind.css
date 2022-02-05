@@ -4,5 +4,29 @@
 
 
 .Card {
-    @apply w-48 h-64 overflow-hidden flex-none shadow-lg
+    @apply w-40 h-48 text-white flex-none shadow-2xl
 }
+
+.Card--header {
+    @apply w-full h-3/5 rounded-t-md bg-cover
+}
+
+.Card--intro {
+    @apply w-full h-2/5 p-2 rounded-b-md
+}
+
+ .Card--title {
+    @apply text-base font-bold
+}
+
+.Card--paragraph {
+    @apply text-sm pt-2
+}
+
+.Card:nth-child(odd) .Card--intro{
+    @apply bg-secondary
+}
+.Card:nth-child(even) .Card--intro{
+    @apply bg-white text-black
+}
+
