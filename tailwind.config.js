@@ -9,6 +9,10 @@ module.exports = {
 				'new-york': "url('../img/new-york.jpg')",
 				'norway': "url('../img/norway.jpg')",
 				'switzerland': "url('../img/switzerland.jpg')",
+				'los-angeles': "url('../img/LA.jpg')",
+				'chicago': "url('../img/chicago.jpg')",
+				'miami': "url('../img/miami.jpg')",
+				'bali': "url('../img/bali.jpg')",
 			},
 			backgroundColor: theme => ({
 				...theme('colors'),
