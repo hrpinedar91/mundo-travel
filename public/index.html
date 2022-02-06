@@ -21,15 +21,17 @@
     <section>
         <div id="home">
             <div class="w-full h-4/5">
-                <div class="w-full h-1/2 flex flex-col absolute items-center justify-around">
+                <div class="w-full h-1/2 lg:h-3/4 flex flex-col absolute items-center justify-around lg:items-start lg:px-20 lg:justify-center">
                     <input type="search" name="" id="search" placeholder="San Francisco"
-                        class="w-4/5 h-11 rounded-full border-none text-center text-xl placeholder-black font-thin shadow-xl transition-all duration-300 focus-within:shadow-sm focus:ring-2 focus:ring-secondary focus:outline-none focus:w-11/12">
+                        class="w-4/5 h-11 rounded-full border-none text-center text-xl placeholder-black font-thin shadow-xl transition-all duration-300 focus-within:shadow-sm focus:ring-2 focus:ring-secondary focus:outline-none focus:w-11/12 lg:hidden">
+                     <h1 class="text-2xl font-bold text-black lg:mb-10">Find More Locations <br> like this</h1>   
                     <button
                         class="w-48 h-12 bg-white hover:bg-primary rounded-full px-10 py-2 text-primary hover:text-white font-semibold shadow-lg transition-all duration-500 ease-in-out hover:-translate-y-1 hover:scale-110">Explore
                         More</button>
                 </div>
                 <div class="w-full h-full">
-                    <img src="./img/san-fracisco.jpg" alt="">
+                    <img class="lg:hidden" src="./img/san-fracisco.jpg" alt="">
+                    <img class="hidden lg:flex" src="./img/sanFranciscoDesktop.jpg" alt="">
                 </div>
             </div>
         </div>

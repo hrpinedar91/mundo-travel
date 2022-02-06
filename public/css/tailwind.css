@@ -596,10 +596,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
-.bg-sanFrancisco-desktop {
-  background-image: url('../img/sanFranciscoDesktop.jpg');
-}
-
 .bg-norway {
   background-image: url('../img/norway.jpg');
 }
@@ -634,10 +630,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-bali {
   background-image: url('../img/bali.jpg');
-}
-
-.bg-cover {
-  background-size: cover;
 }
 
 .fill-current {
@@ -679,6 +671,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-thin {
   font-weight: 100;
 }
@@ -687,9 +684,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 600;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(204 45 74 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .placeholder-black::-moz-placeholder {
@@ -919,34 +925,37 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-ring-color: rgb(143 162 6 / var(--tw-ring-opacity));
 }
 
-@media (min-width: 640px) {
-  .sm\:hidden {
-    display: none;
-  }
-}
-
 @media (min-width: 1024px) {
+  .lg\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
   .lg\:hidden {
     display: none;
   }
 
-  .lg\:h-2\/3 {
-    height: 66.666667%;
+  .lg\:h-3\/4 {
+    height: 75%;
   }
 
-  .lg\:h-full {
-    height: 100%;
+  .lg\:items-start {
+    align-items: flex-start;
   }
 
-  .lg\:bg-cover {
-    background-size: cover;
+  .lg\:justify-center {
+    justify-content: center;
+  }
+
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .lg\:pb-6 {
     padding-bottom: 1.5rem;
-  }
-
-  .lg\:disabled\:flex:disabled {
-    display: flex;
   }
 }
