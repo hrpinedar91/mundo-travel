@@ -19,5 +19,8 @@
   "homepage": "https://github.com/hrpinedar91/mundo-travel#readme",
   "devDependencies": {
     "tailwindcss": "^3.0.18"
+  },
+  "dependencies": {
+    "tailwind-scrollbar-hide": "^1.1.7"
   }
 }

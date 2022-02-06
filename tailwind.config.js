@@ -41,5 +41,7 @@ module.exports = {
 			with: ["responsive", "hover", "focus"]
 		},
 	},
-	plugins: [],
+	plugins: [
+		require('tailwind-scrollbar-hide')
+	],
 }

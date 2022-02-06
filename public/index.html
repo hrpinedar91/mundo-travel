@@ -21,15 +21,15 @@
     <section>
         <div id="home">
             <div class="w-full h-4/5">
-                <div class="w-full h-1/2 lg:h-3/4 flex flex-col absolute items-center justify-around lg:items-start lg:px-20 lg:justify-center">
+                <div class="w-full h-3/5 lg:h-full flex flex-col absolute items-center justify-around lg:items-start lg:px-20 lg:justify-center">
                     <input type="search" name="" id="search" placeholder="San Francisco"
                         class="w-4/5 h-11 rounded-full border-none text-center text-xl placeholder-black font-thin shadow-xl transition-all duration-300 focus-within:shadow-sm focus:ring-2 focus:ring-secondary focus:outline-none focus:w-11/12 lg:hidden">
-                     <h1 class="text-2xl font-bold text-black lg:mb-10">Find More Locations <br> like this</h1>   
+                     <h1 class="hidden lg:flex text-2xl font-bold text-black lg:mb-10">Find More Locations <br> like this</h1>   
                     <button
                         class="w-48 h-12 bg-white hover:bg-primary rounded-full px-10 py-2 text-primary hover:text-white font-semibold shadow-lg transition-all duration-500 ease-in-out hover:-translate-y-1 hover:scale-110">Explore
                         More</button>
                 </div>
-                <div class="w-full h-full">
+                <div class="w-full h-full lg:h-full">
                     <img class="lg:hidden" src="./img/san-fracisco.jpg" alt="">
                     <img class="hidden lg:flex" src="./img/sanFranciscoDesktop.jpg" alt="">
                 </div>
@@ -39,8 +39,22 @@
         <div id="recomended" class="p-6">
             <h2 class="Tittle">Our Recomendations</h2>
             <div
-                class="w-full h-72 flex gap-4 shrink-0 overflow-x-auto overscroll-contain items-center overflow-y-hidden">
+                class="w-full h-auto flex gap-8 pt-10 shrink-0 overflow-x-auto overscroll-contain items-center overflow-y-hidden lg:scrollbar-hide ">
 
+                <div class="Card">
+                    <div class="Card--header bg-norway"></div>
+                    <div class="Card--intro">
+                        <p class="Card--title">Norway</p>
+                        <p class="Card--paragraph">Beautiful landscapes</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div class="Card--header bg-norway"></div>
+                    <div class="Card--intro">
+                        <p class="Card--title">Norway</p>
+                        <p class="Card--paragraph">Beautiful landscapes</p>
+                    </div>
+                </div>
                 <div class="Card">
                     <div class="Card--header bg-norway"></div>
                     <div class="Card--intro">
