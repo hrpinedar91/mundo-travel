@@ -468,16 +468,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
 
-.mt-3 {
-  margin-top: 0.75rem;
+.left-0 {
+  left: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-4\/5 {
@@ -504,8 +516,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 18rem;
 }
 
-.h-96 {
-  height: 24rem;
+.h-auto {
+  height: auto;
+}
+
+.h-20 {
+  height: 5rem;
 }
 
 .w-full {
@@ -561,10 +577,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 9999px;
 }
 
-.rounded-2xl {
-  border-radius: 1rem;
-}
-
 .border-none {
   border-style: none;
 }
@@ -572,6 +584,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
+.bg-sanFrancisco-desktop {
+  background-image: url('../img/sanFranciscoDesktop.jpg');
 }
 
 .bg-norway {
@@ -594,16 +620,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('../img/switzerland.jpg');
 }
 
+.bg-chicago {
+  background-image: url('../img/chicago.jpg');
+}
+
 .bg-los-angeles {
   background-image: url('../img/LA.jpg');
 }
 
 .bg-miami {
   background-image: url('../img/miami.jpg');
-}
-
-.bg-chicago {
-  background-image: url('../img/chicago.jpg');
 }
 
 .bg-bali {
@@ -614,12 +640,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-size: cover;
 }
 
-.p-6 {
-  padding: 1.5rem;
+.fill-current {
+  fill: currentColor;
 }
 
-.p-4 {
-  padding: 1rem;
+.p-6 {
+  padding: 1.5rem;
 }
 
 .px-10 {
@@ -632,17 +658,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.5rem;
 }
 
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-
 .pt-5 {
   padding-top: 1.25rem;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
+.pb-28 {
+  padding-bottom: 7rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .text-center {
@@ -654,16 +679,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .font-thin {
   font-weight: 100;
 }
@@ -672,22 +687,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 600;
 }
 
-.font-extrabold {
-  font-weight: 800;
-}
-
-.font-normal {
-  font-weight: 400;
-}
-
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(204 45 74 / var(--tw-text-opacity));
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .placeholder-black::-moz-placeholder {
@@ -808,6 +810,63 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(204 45 74 / var(--tw-text-opacity));
 }
 
+/* Preguntas */
+
+.Question {
+  height: auto;
+  width: 100%;
+  padding-right: 1.25rem;
+}
+
+.QuestionTitle {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(204 45 74 / var(--tw-text-opacity));
+}
+
+.QuestionIntro {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+/* Rentas */
+
+.BoxRenta {
+  height: 24rem;
+  width: 100%;
+  border-radius: 1rem;
+  background-size: cover;
+  padding: 1rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.BoxRenta:nth-child(1) {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.BoxRentaTittle {
+  padding-top: 2.5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 800;
+}
+
+.BoxRentaIntro {
+  margin-top: 0.75rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+}
+
 .focus-within\:shadow-sm:focus-within {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
@@ -835,6 +894,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:text-terciary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(97 174 201 / var(--tw-text-opacity));
+}
+
 .focus\:w-11\/12:focus {
   width: 91.666667%;
 }
@@ -855,3 +919,34 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-ring-color: rgb(143 162 6 / var(--tw-ring-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:h-2\/3 {
+    height: 66.666667%;
+  }
+
+  .lg\:h-full {
+    height: 100%;
+  }
+
+  .lg\:bg-cover {
+    background-size: cover;
+  }
+
+  .lg\:pb-6 {
+    padding-bottom: 1.5rem;
+  }
+
+  .lg\:disabled\:flex:disabled {
+    display: flex;
+  }
+}

@@ -13,6 +13,7 @@ module.exports = {
 				'chicago': "url('../img/chicago.jpg')",
 				'miami': "url('../img/miami.jpg')",
 				'bali': "url('../img/bali.jpg')",
+				'sanFrancisco-desktop': "url('../img/sanFranciscoDesktop.jpg')",
 			},
 			backgroundColor: theme => ({
 				...theme('colors'),

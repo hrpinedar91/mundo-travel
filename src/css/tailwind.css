@@ -31,6 +31,37 @@
 }
 
 .Tittle {
-    @apply text-2xl font-bold text-primary
+    @apply text-2xl font-bold text-primary;
 }
 
+/* Preguntas */
+
+.Question {
+    @apply w-full h-auto pr-5;
+}
+
+.QuestionTitle {
+    @apply text-primary text-base font-semibold;
+}
+
+.QuestionIntro {
+    @apply text-black text-sm font-normal;
+}
+
+/* Rentas */
+
+.BoxRenta {
+    @apply w-full h-96 px-7  p-4 bg-cover rounded-2xl text-white
+}
+
+.BoxRenta:nth-child(1) {
+    @apply text-black;
+}
+
+.BoxRentaTittle {
+    @apply text-3xl font-extrabold pt-10
+}
+
+.BoxRentaIntro {
+    @apply text-lg font-normal mt-3
+}
