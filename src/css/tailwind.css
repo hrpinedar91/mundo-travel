@@ -12,7 +12,7 @@
 }
 
 .Card--intro {
-    @apply w-full h-2/5 p-2 rounded-b-md
+    @apply w-full h-2/5 p-2 lg:p-5 rounded-b-md
 }
 
  .Card--title {
